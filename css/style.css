@@ -11,6 +11,10 @@ body {
     background-color: #f5f7fa;
     color: #222;
     line-height: 1.6;
+    background-image:
+        linear-gradient(to right, rgba(0, 0, 0, 0.04) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
 }
 
 a {
@@ -78,3 +82,4 @@ footer {
     background-color: #e5e7eb;
     font-size: 0.9rem;
 }
+
