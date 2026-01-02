@@ -27,10 +27,13 @@ a:hover {
 }
 
 /* Navigation */
-header {
-    background-color: #0f172a;
-    color: white;
-    padding: 1rem 2rem;
+.site-header {
+    max-width: 900px;
+    margin: 1.5rem auto 0;
+    padding: 0.8rem 1.5rem;
+    background-color: #070840;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(7, 8, 64, 0.25);
 }
 
 .navbar {
@@ -39,16 +42,23 @@ header {
     align-items: center;
 }
 
+.navbar h1 {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
 .navbar ul {
     list-style: none;
     display: flex;
-    gap: 1.2rem;
+    gap: 1.4rem;
 }
 
 .navbar a {
-    color: white;
+    color: #ffffff;
     font-weight: 500;
+    font-size: 0.95rem;
 }
+
 
 /* Contenu */
 main {
@@ -82,4 +92,5 @@ footer {
     background-color: #e5e7eb;
     font-size: 0.9rem;
 }
+
 
